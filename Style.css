@@ -1,0 +1,86 @@
+.Nav-Bar{
+    display: flex;
+    justify-content:space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0;
+}
+.List{
+   display: flex;
+   list-style: none;
+   gap: 20px;
+}
+#HERROO{
+  display: FLEX;
+  justify-content: space-around;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 52PX;
+   padding-bottom: 52px;
+}
+.DOMYYYY{
+    border-radius: 100%;
+    height: 300PX;
+    width: 300PX;
+}
+BUTTON{
+  border-radius: 5PX;
+  padding: 20px 15PX;
+  background-color: rgb(232, 129, 129);
+  border: none;
+  color: white;
+}
+#ABOUTT{
+    background-color: rgb(225, 252, 252);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.HII{
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px;
+}
+#Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+.form{
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 40px  50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 501px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 0.5px solid rgb(175, 166, 166);
+}
+textarea{
+    width: 501px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 0.5px solid rgb(175, 166, 166);
+}
+form button{
+  width: 100%;
+}
+footer{
+    background-color: rgb(159, 159, 159);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
